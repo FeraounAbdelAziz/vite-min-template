@@ -1,7 +1,13 @@
 import "@mantine/core/styles.css";
+import "@mantine/charts/styles.css";
+
+import KMeansClusterer from "./components/Dashboard";
 import { MantineProvider } from "@mantine/core";
-import { theme } from "./theme";
 
 export default function App() {
-  return <MantineProvider theme={theme}>App</MantineProvider>;
+  return (
+    <MantineProvider defaultColorScheme="dark">
+      <KMeansClusterer />
+    </MantineProvider>
+  );
 }
