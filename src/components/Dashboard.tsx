@@ -8,7 +8,6 @@ import {
   Group, 
   NumberInput, 
   Table, 
-  Center
 } from '@mantine/core';
 
 // Type definitions
